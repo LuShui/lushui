@@ -1,12 +1,16 @@
 <template>
   <div>
-    <i class="fa fa-home"></i>
+    <Search></Search>
   </div>
 </template>
 
 <script>
+import Search from './Search.vue'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Search
+  }
 }
 </script>
 

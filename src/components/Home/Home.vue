@@ -1,16 +1,13 @@
 <template>
   <div>
-    <Search></Search>
+<i class="el-icon-delete"></i>
+
   </div>
 </template>
 
 <script>
-import Search from './Search.vue'
 export default {
-  name: 'Home',
-  components: {
-    Search
-  }
+  name: 'Home'
 }
 </script>
 
